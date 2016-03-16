@@ -5,7 +5,7 @@ int main()
 	int i, a;
 	for (i = 1; i <= 20; i++)
 	{
-		if (i % 3 == 0 && i % 5)
+		if (i % 3 == 0 && i % 5 == 0)
 			cout << "FizzBuzz" << endl;
 		else if (i % 3 == 0)
 			cout << "Fizz" << endl;
@@ -14,5 +14,6 @@ int main()
 		else
 			cout << i << endl;
 	}
+
 	return 0;
 }
